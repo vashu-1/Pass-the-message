@@ -1,0 +1,51 @@
+b+
+ody {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  background-color: lightskyblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  width: 50%;
+  height: 25rem;
+  background-color: antiquewhite;
+  border-radius: 12px;
+  box-shadow: -5px 5px 20px 4px rgb(0, 0, 0);
+  padding: 1.4rem;
+}
+.box h3 {
+  font-size: 2.2rem;
+  text-align: center;
+}
+.box h4 {
+  font-size: 1.25rem;
+  color: #000000df;
+  font-weight: 300;
+}
+.fa-solid {
+  padding: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.794);
+}
+input {
+  width: 90%;
+  padding: 7px;
+}
+button {
+  padding: 8px 20px;
+  background-color: rgb(114, 114, 241);
+  border: none;
+  border-radius: 18px;
+  font-weight: 600;
+  margin-top: 5%;
+}
+.hero {
+  font-size: 1.3rem;
+  text-align: center;
+}
